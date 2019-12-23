@@ -1,9 +1,9 @@
 import React from 'react';
-
+import { LinksBar } from './components/'
 function App() {
   return (
     <div className="App">
-      <h1> Hello World</h1>
+      <LinksBar />
     </div>
   );
 }
