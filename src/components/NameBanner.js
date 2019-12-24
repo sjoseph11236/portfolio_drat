@@ -1,9 +1,9 @@
 import React from 'react';
-import image from './unnamed-23.jpg';
+import image from './image.jpg';
 const NameBanner = () => {
   return ( 
     <div className="mainImageBG" style={{
-      background: `url(${image})`
+      backgroundImage: `url(${image})`
     }}>
       <div className="ptext">
         <span className="border">
