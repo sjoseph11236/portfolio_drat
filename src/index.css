@@ -7,14 +7,46 @@ body {
   color:#666;
 }
 
-.linksBar a:hover{
-  background-color: whitesmoke;
+.mainImageBG{
+  min-height: 50%;
+}
 
+.ptext{
+  position: absolute;
+  top: 50%; 
+  width: 100%;
+  text-align: center;
+  color: #000; 
+  font-size: 27px; 
+  letter-spacing: 8px; 
+  text-transform: uppercase;
+  border-color: #fff;
+}
+
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px; 
+}
+
+.ptext .border .trans{
+  background-color: transparent;
+}
+
+
+.mainImageBG,.image2,.image3,.image4{
+  position: relative;
+  opacity: 0.70;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
 
 .home{
   background-color: #6F2DBD;
 }
+
 .linksBar{
   width: 100%;
   background-color: #B298DC;
@@ -32,3 +64,6 @@ body {
   padding: 12px 12px 12px 12px; 
 }
 
+.linksBar a:hover{
+  background-color: whitesmoke;
+}
