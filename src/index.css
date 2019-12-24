@@ -22,7 +22,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  justify-content: space-around;
 }
 
 .linksBar > a { 
@@ -30,6 +29,6 @@ body {
   color:black;
   font-size: 36px;
   opacity: .5;
-  padding: 12px 0; 
+  padding: 12px 12px 12px 12px; 
 }
 
